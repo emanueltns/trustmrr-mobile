@@ -1,0 +1,19 @@
+-- EXTENSION POINT: copy this schema to add new entities (rename Item → YourDomain)
+
+CREATE TABLE IF NOT EXISTS Item (
+    id          INTEGER NOT NULL PRIMARY KEY,
+    name        TEXT NOT NULL,
+    createdAt   TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM Item ORDER BY id DESC;
+
+selectById:
+SELECT * FROM Item WHERE id = :id;
+
+upsert:
+INSERT OR REPLACE INTO Item(id, name, createdAt) VALUES (:id, :name, :createdAt);
+
+deleteAll:
+DELETE FROM Item;
