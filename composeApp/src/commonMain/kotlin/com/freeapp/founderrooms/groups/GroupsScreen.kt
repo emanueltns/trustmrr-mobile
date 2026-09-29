@@ -43,6 +43,7 @@ import com.freeapp.founderrooms.auth.Me
 import com.freeapp.founderrooms.core.ui.toDisplayMessage
 import com.freeapp.founderrooms.designsystem.FounderColors
 import com.freeapp.founderrooms.designsystem.FounderFontFamily
+import com.freeapp.founderrooms.designsystem.MadeWithFreeapp
 import com.freeapp.founderrooms.tiers.Tier
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -348,6 +349,7 @@ private fun Footer() {
             Text(text = "★", fontSize = 11.sp, color = FounderColors.blue)
             Text(text = " TrustMRR", fontSize = 11.sp, color = FounderColors.muted)
         }
+        MadeWithFreeapp(modifier = Modifier.padding(top = 2.dp))
     }
 }
 

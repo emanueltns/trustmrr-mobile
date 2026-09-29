@@ -45,6 +45,7 @@ import com.freeapp.founderrooms.core.error.ErrorState
 import com.freeapp.founderrooms.core.ui.toDisplayMessage
 import com.freeapp.founderrooms.designsystem.FounderColors
 import com.freeapp.founderrooms.designsystem.FounderFontFamily
+import com.freeapp.founderrooms.designsystem.MadeWithFreeapp
 import org.koin.compose.viewmodel.koinViewModel
 
 private val ErrorRed = Color(0xFFC62828)
@@ -200,6 +201,7 @@ fun AuthScreen(
                     .fillMaxWidth()
                     .padding(top = 20.dp),
             )
+            MadeWithFreeapp(modifier = Modifier.padding(top = 4.dp))
         }
     }
 }

@@ -37,3 +37,7 @@ Every account starts unverified, with access to the public room only. `POST /ver
 ## License
 
 Apache 2.0, see [LICENSE](LICENSE).
+
+---
+
+Made with [freeapp.ai](https://freeapp.ai)
