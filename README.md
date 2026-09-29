@@ -2,6 +2,16 @@
 
 Chat rooms for founders, gated by verified monthly recurring revenue. Everyone starts in the public room; verifying your MRR unlocks the private room that matches your tier.
 
+## Screenshots
+
+<p>
+  <img src="screenshots/05-auth.png" width="180" alt="Sign in screen" />
+  <img src="screenshots/01-groups.png" width="180" alt="Room list screen" />
+  <img src="screenshots/02-chat.png" width="180" alt="Room chat screen" />
+  <img src="screenshots/03-verify.png" width="180" alt="Revenue verification screen" />
+  <img src="screenshots/04-locked.png" width="180" alt="Locked room screen" />
+</p>
+
 ## What's inside
 
 | Module | What it is |
